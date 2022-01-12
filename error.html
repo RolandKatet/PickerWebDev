@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="slack-app-id" content="AHU58E5MZ">
+        <title>Picker</title>
+
+        <link rel="stylesheet" id="bs-base-fonts">
+        <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css" id="bs-base-css">
+        <style type="text/css" id="bs-recompiled-css"></style>
+        <link rel="stylesheet" href="vendor/icons/css/fontello.css">
+        <link rel="stylesheet" href="static/build/css/preview.b7a633bc.css">
+        <link rel="icon" href="static/build/image/favicon.ico">
+    </head>
+    <body id="page">
+
+        <div class="container-fluid" id="content">
+
+            <nav data-section-id="1" data-component-id="1_10_awz" data-category="navigations" class="navbar navbar-expand-lg navbar-light navbar-light bg-light fixed-top mb-5">
+                <a class="navbar-brand d-lg-none" href="index.html" data-config-id="brand">Picker</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigations-10" aria-controls="navigations-10" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navigations-10">
+                    <div class="d-flex w-100 flex-column flex-lg-row justify-content-beetween align-lg-items-center">
+                        <a class="navbar-brand d-none d-lg-block col-4 mr-0 pl-0" href="index.html" data-config-id="brand">
+                            <img src="static/build/image/logo-vector.svg" alt="Picker Logo" style="width: 30px;" />
+                            Picker
+                        </a>
+                        <ul class="navbar-nav mx-lg-auto col-4 justify-content-center" data-config-id="navigation1">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Features <span class="sr-only">(current)</span></a></li>
+                            <li class="nav-item"><a class="nav-link" href="termsofuse.html">Terms of Use</a></li>
+                            <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy</a></li>
+                            <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="mt-5">
+                <section class="py-5 bg-gradient-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 mb-3 mb-md-0">&nbsp;</div>
+                            <div class="col-md-9">
+                                <h1><a name="support" id="support"></a>Error</h1>
+                            </div>
+                            <div class="col-md-12">
+                                <p>
+                                    Something went terribly wrong.
+                                </p>
+                            </div>  
+                            <div class="col-md-12">
+                                <p>
+                                    If you need help, please contact us at <a href="mailto:support@slackpicker.com">support@slackpicker.com</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>            
+        </div>
+
+        <script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="vendor/bootstrap/popper.min.js"></script>
+        <script src="vendor/bootstrap/bootstrap.min.js"></script>
+
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+                $('[data-toggle="popover"]').popover();
+            });
+        </script>
+
+        <script>
+
+            var forms = document.getElementsByTagName('form');
+            for(var i = 0; i < forms.length; i += 1) {
+                forms[i].addEventListener('submit', function(e) {
+                    e.preventDefault();
+                }, true);
+            }
+        </script>
+    </body>
+</html>
