@@ -1,4 +1,4 @@
-# PickerWeb
-Picker Website
+# PickerDevWeb
+Picker Dev Website
 
-Repository for hosting the website for [Picker](http://pick.slackpicker.com/)
+Repository for hosting the website for [Picker Dev](http://pickerdev.katet.software/)
